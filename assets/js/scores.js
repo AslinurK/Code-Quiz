@@ -1,9 +1,5 @@
 function printHighscores() {
   // either get scores from localstorage or set to empty array
-  startQuiz.style.display = "none";
-  gameOverDiv.style.display = "none";
-  highscoreContainer.style.display = "none";
-  endGameBtns.style.display = "none";
 
   // (optional) sort highscores by score property in descending order
 
@@ -15,7 +11,6 @@ function printHighscores() {
 
 function clearHighscores() {
   // (and reload)
-  
 }
 
 // attache clear event to clear score button
